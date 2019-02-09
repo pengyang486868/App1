@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         bundle.putString("message","current msg");
         bundle.putInt("id",55);
         intent.putExtras(bundle);
-        startActivityForResult(intent,0);//git del
+        startActivityForResult(intent,0);//git del 2
 
     }
 
