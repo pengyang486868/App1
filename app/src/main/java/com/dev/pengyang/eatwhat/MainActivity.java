@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btn=(Button)findViewById(R.id.btnfirst);
-        btn.setOnLongClickListener(new TestLongClickListener());
+        btn.setOnLongClickListener(new TestLongClickListener());//git
     }
 
     public void onFirstButtonClick(View source)
