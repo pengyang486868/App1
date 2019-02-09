@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btn=(Button)findViewById(R.id.btnfirst);
+        Button btn=(Button)findViewById(R.id.btnfirst);//master
         btn.setOnLongClickListener(new TestLongClickListener());//git
     }
 
